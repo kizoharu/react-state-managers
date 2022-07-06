@@ -2,6 +2,11 @@
 
 Researching behavioral features and strong/weak points...
 
-## ---
-### ---
+## Include: 
+
+### mobx
+### redux
+### redux-toolkit
+
+
 **---**
