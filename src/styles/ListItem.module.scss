@@ -1,0 +1,27 @@
+.listItem {
+  background-color: rgb(228, 255, 235);
+  margin: 4px;
+  padding: 2px;
+  input {
+    margin-left: 8px;
+  }
+  button {
+    
+    border-radius: 4px;
+    color: rgb(0, 0, 0);
+
+    &:not(:last-child) {
+      margin-right: 4px;
+    }
+    &.edit {
+      margin-left: 16px;
+      color: white;
+      background-color: rgb(98, 127, 255);
+    }
+    &.del {
+      color: white;
+      background-color: rgb(243, 98, 98);
+    }
+  }
+  
+}

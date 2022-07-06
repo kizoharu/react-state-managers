@@ -1,0 +1,15 @@
+.list {
+  .btn {
+    margin: 8px;
+    button {
+      background-color: rgb(185, 100, 255);
+      border-radius: 4px;
+      color: white;
+
+      &:not(:last-child) {
+        margin-right: 4px;
+      }
+    }
+  }
+
+}

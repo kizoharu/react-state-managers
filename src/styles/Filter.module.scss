@@ -1,0 +1,16 @@
+.listHeader {
+  margin: 6px;
+  display: flex;
+  justify-content: space-around;
+  input {
+    // background-color: aqua;
+    border-radius: 8px;
+    flex: 0.8 0 auto;
+    // width: 600px;
+  }
+  select {
+    border-radius: 8px;
+    flex: 0.1 0 auto;
+    text-align: center;
+  }
+}

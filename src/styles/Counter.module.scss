@@ -1,0 +1,17 @@
+.counter {
+  margin: 8px;
+  padding: 6px;
+  border: solid;
+  border-color: rgb(255, 115, 232);
+  button {
+    background-color: rgb(160, 255, 242);
+    color: black;
+    border-radius: 4px;
+    &:first-child {
+      margin-left: 4px;
+    }
+    &:not(:last-child) {
+      margin-right: 4px;
+    }
+  }
+}
